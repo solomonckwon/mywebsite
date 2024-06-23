@@ -2,7 +2,7 @@ h1 {
     text-align: center;
 }
 
-ul {
+ul[type="navbar"] {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ li {
     float: left;
 }
 
-li a {
+li a[type="navbar"] {
     display: block;
     color: white;
     text-align: center;
@@ -22,6 +22,12 @@ li a {
     padding: 1em 1.5em;
 }
 
-li a:hover {
+li a[type="navbar"]:hover {
     background-color: #696969;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
 }
