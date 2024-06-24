@@ -8,6 +8,7 @@ ul[type="navbar"] {
     padding: 0;
     overflow: hidden;
     background-color: silver;
+    box-shadow: 3px 3px 8px 2px #1E00B3;
 }
 
 li {
@@ -19,10 +20,12 @@ li a[type="navbar"] {
     color: white;
     text-align: center;
     background-color: #202020;
-    padding: 1em 1.5em;
+    padding: 10px 50px;
 }
 
 li a[type="navbar"]:hover {
+    color: #202020;
+    text-shadow: 1px 2px 2px #666621;
     background-color: #696969;
 }
 
